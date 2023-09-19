@@ -104,7 +104,7 @@ const dishes = [
     type: "sushi roll",
     name: "California Roll",
     subtitle: "Avocado and Crab Roll",
-    src_img: "/menu/sushi-roll/California-roll.png",
+    src_img: "/menu/sushi-roll/California-Roll.png",
     img_public_url:
       "https://sushier-data-bucket.s3.us-west-1.amazonaws.com/menu/sushi-roll/California-Roll.png",
     price: 8.99,
