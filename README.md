@@ -12,12 +12,10 @@ Welcome to Sushier,where we make sushi ordering effortlessly easy! Sushier is a 
 - [Features](#features-mega)
 - [Usage Guide](#usage-guide-sake)
 - [Design Idea & Process](#design-idea--process-art)
-- [Tech Stack](#tech-stack-)
-- [App Versions](#app-versions-)
-- [Getting Started](#getting-started-)
-- [Contributing](#contributing-)
-- [License](#license-)
-- [Contact](#contact-)
+- [Tech Stack](#tech-stack-computer)
+- [App Versions](#app-versions-page_with_curl)
+- [Getting Started](#getting-started-stars)
+- [Contact](#contact-mailbox_closed)
 
 ## Introduction :star:
 
@@ -63,7 +61,7 @@ Sushier's design is fully responsive, ensuring a seamless experience across a va
 **For an in-depth look at our design process, including design artifacts and detailed documentation, please visit our [Design Process Repository](link-to-design-process-repo).**
 
 
-## Tech Stack ⚙️
+## Tech Stack :computer:
 
 Sushier is powered by a robust tech stack:
 
@@ -77,7 +75,7 @@ Sushier is powered by a robust tech stack:
 
 - **Deployment**: The app is deployed on [Vercel](https://vercel.com/), ensuring high performance and reliability.
 
-## App Versions 📃
+## App Versions :page_with_curl:
 
 - **Current Version**: 1.0.0
 
@@ -94,12 +92,12 @@ Sushier is powered by a robust tech stack:
 Stay tuned for these exciting updates!
 
 
-## Getting Started 🛫
+## Getting Started :stars:
 
 To explore Sushier, Please follow this [production link](https://www.sushier.app/).
 
 
-## Contact 📫
+## Contact :mailbox_closed:
 
 Have questions or feedback? Reach out to [Ziqi's Email](mailto:zfang1207@gmail.com) or connect on [LinkedIn](https://linkedin.com/in/ziqi-fang).
 
