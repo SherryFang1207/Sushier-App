@@ -9,9 +9,9 @@ Welcome to Sushier,where we make sushi ordering effortlessly easy! Sushier is a 
 ## Table of Contents
 
 - [Introduction](#introduction-star)
-- [Features](#features-)
-- [Usage Guide](#usage-guide-)
-- [Design Idea & Process](#design-idea--process-)
+- [Features](#features-mega)
+- [Usage Guide](#usage-guide-sake)
+- [Design Idea & Process](#design-idea--process-art)
 - [Tech Stack](#tech-stack-)
 - [App Versions](#app-versions-)
 - [Getting Started](#getting-started-)
@@ -43,7 +43,7 @@ Visit [Sushier](https://www.sushier.app/) to explore our sushi e-commerce platfo
 4. **Checkout**: Proceed to checkout, review your order, and make a secure payment.
 
 
-## Design Idea & Process 🎨
+## Design Idea & Process :art:
 
 Sushier's UX/UI design follows modern user experience principles and uses the newest design tools to offer a seamless digital experience.
 
