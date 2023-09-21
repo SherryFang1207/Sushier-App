@@ -21,7 +21,7 @@ Welcome to Sushier,where we make sushi ordering effortlessly easy! Sushier is a 
 
 ## Introduction 🌟
 
-Sushier is a concept project created by [Ziqi Fang](linkedin.com/in/ziqi-fang), a junior software engineer who likes experimenting new ideas and bringing concept projects to life. All rights reserved.
+Sushier is a concept project created by [Ziqi Fang](https://linkedin.com/in/ziqi-fang), a junior software engineer who likes experimenting new ideas and bringing concept projects to life. All rights reserved.
 
 ## Features :mega:
 
@@ -81,9 +81,18 @@ Sushier is powered by a robust tech stack:
 
 - **Current Version**: 1.0.0
 
-- **Future Features**: We are actively working on enhancing the Sushier experience with features like:
-  - [Feature 1](link-to-feature-1): Description of feature under development.
-  - [Feature 2](link-to-feature-2): Description of feature under development.
+- **Future Features**: We are actively working on enhancing the Sushier experience with a range of exciting new features:
+
+  - **Integration with Stripe Payment**: In the upcoming release, we're completing our integration with Stripe to bring secure, in-app payment options to Sushier. You'll be able to order your favorite sushi dishes and pay seamlessly within the app.
+
+  - **New Category: "Special Dishes"**: Get ready for a delightful addition to our menu! We're introducing a "Special Dishes" category, featuring limited-time festival delicacies and discounted regular dishes. Keep an eye out for countdown timers to make sure you don't miss these delectable treats.
+
+  - **Email Marketing Integration**: Stay connected with Sushier! We're integrating with email marketing services like Mailchimp and AWS SES to send you exclusive promotions, updates, and mouthwatering sushi offers. Subscribe to Sushier to receive these delectable updates in your inbox.
+
+  - **Loyalty Rewards Program (Previously Mentioned)**: Sushier's loyalty program is in the pipeline. Earn points with every order and redeem them for discounts and free sushi dishes.
+
+Stay tuned for these exciting updates!
+
 
 ## Getting Started 🛫
 
@@ -92,7 +101,7 @@ To explore Sushier, Please folloe this [production link](https://www.sushier.app
 
 ## Contact 📫
 
-Have questions or feedback? Reach out to [Ziqi's Email](mailto:zfang1207@gmail.com) or connect on [LinkedIn](linkedin.com/in/ziqi-fang).
+Have questions or feedback? Reach out to [Ziqi's Email](mailto:zfang1207@gmail.com) or connect on [LinkedIn](https://linkedin.com/in/ziqi-fang).
 
 Thank you for visiting Sushier, where innovation and sushi converge. Explore the flavors, order with ease, and join us on this culinary adventure!
 
