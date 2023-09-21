@@ -11,7 +11,7 @@ Welcome to Sushier, where sushi meets innovation! Sushier is a **concept sushi e
 - [Introduction](#introduction)
 - [Features](#features)
 - [Usage Guide](#usage-guide)
-- [Design Idea & Process](#design-idea--process)
+- [Design Idea & Process](#design-idea--process-🎨)
 - [Tech Stack](#tech-stack)
 - [App Versions](#app-versions)
 - [Getting Started](#getting-started)
