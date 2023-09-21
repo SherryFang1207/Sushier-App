@@ -34,6 +34,7 @@ module.exports = {
         "middle-screen": "1270px",
         "small-screen": "1070px",
         "mobile-screen": "760px",
+        "smallest-screen": "376px",
         "item-middle-screen": "1140px",
         "item-small-screen": "770px",
         // "item-mobile-screen": "1140px",

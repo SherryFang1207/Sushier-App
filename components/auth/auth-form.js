@@ -52,6 +52,8 @@ function AuthForm() {
 
       if (!result.error) {
         router.replace("/menu");
+      } else if (result.error) {
+        toast.error(result.error);
       }
     } else {
       // isLogin is false means that we need to create a user. Implemen the Sign up logic!
@@ -64,6 +66,13 @@ function AuthForm() {
           toast.success("You already have a Sushier Account. Let's log in!");
           console.log("You already have a Sushier Account. Let's log in!");
           switchAuthModeHandler();
+        } else if (
+          error.message ===
+          "Invalid input - password should also be at least 7 characters long."
+        ) {
+          toast.error(
+            "Invalid Input. Please enter valid email and a minimum password length is 7 characters"
+          );
         }
       }
       // After Create user, automatically log created user in
@@ -75,6 +84,7 @@ function AuthForm() {
       // console.log(result);
       // Navigate away if we already have the user login session
       if (!result.error) {
+        toast.success("Created Account Successfully!");
         router.replace("/menu");
       }
     }
@@ -82,7 +92,7 @@ function AuthForm() {
 
   return (
     <div className=" flex flex-row justify-center items-center">
-      <section className="items-start bg-[#F7F7F7] flex flex-col font-notoJP tracking-wide py-20 px-32 mt-10 rounded-lg">
+      <section className="items-start bg-[#F7F7F7] hidden smallest-screen:flex flex-col font-notoJP tracking-wide py-20 px-32 mt-10 rounded-lg">
         <div className="flex flex-row w-full justify-between items-center">
           <div className="flex flex-col">
             <div className="text-lg tracking-wide text-lighterOrange font-semibold">
@@ -176,6 +186,115 @@ function AuthForm() {
         >
           <FcGoogle size={25} />
           <div className="tracking-wide text-lg">Sign in with Google</div>
+        </button>
+      </section>
+
+      <section className="items-center bg-[#F7F7F7] flex smallest-screen:hidden flex-col font-notoJP tracking-wide py-20  mt-10 rounded-lg px-4">
+        <div className="flex flex-row w-full justify-between items-center mx-6">
+          <div className="flex flex-col">
+            <div className="text-base tracking-wide text-lighterOrange font-semibold">
+              Welcome to
+            </div>
+            <div className="text-2xl text-lightOrange font-bold -ml-0.5">
+              Sushier App
+            </div>
+            <div className="mt-2 tracking-wider text-lighterOrange text-sm">
+              {isLogin ? "Let's log in! 🎉" : "Let's sign up! 😎"}
+            </div>
+          </div>
+          <div className="w-10 h-10">
+            <Image
+              src="/logo/favicon.png"
+              alt="Sushier Favicon"
+              width={200}
+              height={200}
+            />
+          </div>
+        </div>
+
+        <form
+          onSubmit={submitHandler}
+          className="flex flex-col items-center mt-6"
+        >
+          <div className="py-2 text-lighterOrange">
+            <label htmlFor="email" className="text-lg">
+              Email
+            </label>
+          </div>
+          <div className="bg-stone-100 border py-1 px-1 rounded-lg">
+            <input
+              type="email"
+              id="email"
+              required
+              value={email} // Use the email state variable
+              onChange={(e) => setEmail(e.target.value)}
+              className="w-60 py-2"
+              placeholder="Enter your email"
+            />
+          </div>
+
+          <div className="py-2 text-lighterOrange">
+            <label htmlFor="password" className="text-lg">
+              Password
+            </label>
+          </div>
+          <div className="bg-stone-100 border py-1 px-1 rounded-lg">
+            {isLogin ? (
+              <input
+                type="password"
+                id="password"
+                required
+                value={password} // Use the password state variable
+                onChange={(e) => setPassword(e.target.value)}
+                className="w-60 py-2"
+                placeholder="Enter your password"
+              />
+            ) : (
+              <input
+                type="password"
+                id="password"
+                required
+                value={password} // Use the password state variable
+                onChange={(e) => setPassword(e.target.value)}
+                className="w-60 py-2"
+                placeholder="Enter your password (min length 7)"
+              />
+            )}
+          </div>
+
+          <button className="mt-6 text-sm font-normal bg-lightOrange text-white py-3 rounded-2xl tracking-wider w-3/4">
+            {isLogin ? "LOGIN" : "CREATE ACCOUNT"}
+          </button>
+          <div className="w-full flex justify-center">
+            <button
+              type="button"
+              onClick={switchAuthModeHandler}
+              className="text-lightOrange w-full py-3 rounded-2xl text-sm"
+            >
+              {isLogin ? (
+                <div>
+                  <span className=" underline underline-offset-2 ">
+                    Create an account
+                  </span>
+                </div>
+              ) : (
+                <div>
+                  <span className=" underline underline-offset-2">
+                    Login with existing account
+                  </span>
+                </div>
+              )}
+            </button>
+          </div>
+        </form>
+        <div className="w-3/4 border-b-2 border-b-orange-400"></div>
+
+        <button
+          className="mt-6 w-3/4 border border-lightOrange text-lighterOrange py-3 rounded-2xl tracking-wider font-normal flex flex-row items-center justify-center gap-4"
+          onClick={() => signIn("google")}
+        >
+          <FcGoogle size={25} />
+          <div className="tracking-wide text-sm">Sign in with Google</div>
         </button>
       </section>
     </div>
