@@ -2,9 +2,9 @@
 
 [![Sushier Logo](public/logo/Sushier-logo.png)](link-to-live-app)
 
-Welcome to Sushier, where sushi meets innovation! Sushier is a **concept sushi e-commerce web application** that combines the art of sushi with cutting-edge technology. Explore Sushier App today!
+Welcome to Sushier, where sushi meets innovation! Sushier is a **concept sushi e-commerce web application** that combines the art of sushi with cutting-edge technology. Explore Sushier App today! 🍣
 
-![App Screenshot](link-to-app-screenshot.png)
+![App Screenshot](public/snapshot/sushier-app-snapshot.png)
 
 ## Table of Contents
 
