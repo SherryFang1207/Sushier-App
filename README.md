@@ -11,8 +11,9 @@ Welcome to Sushier, where sushi meets innovation! Sushier is a **concept sushi e
 - [Introduction](#introduction)
 - [Features](#features)
 - [Usage Guide](#usage-guide)
-- [Design Process](#design-process)
+- [Design Idea & Process](#design-idea--process)
 - [Tech Stack](#tech-stack)
+- [App Versions](#app-versions)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
 - [License](#license)
@@ -50,56 +51,65 @@ Visit [Sushier](link-to-live-app) to explore our sushi e-commerce platform. Foll
 
 6. **Enjoy Your Sushi**: Once your order is ready, savor the flavors of our delectable sushi.
 
-## Design Process
+## Design Idea & Process 🎨
 
-Sushier's design process involved a meticulous blend of culinary artistry and modern user experience principles. Our goal was to create a platform that celebrates sushi traditions while offering a seamless digital experience.
+Sushier's design process was a meticulous blend of culinary artistry and modern user experience principles. Our aim was to create a platform that not only celebrates sushi traditions but also offers a seamless digital experience, powered by cutting-edge technologies.
 
-- **Wireframing and Prototyping**: We began with wireframes and prototypes to plan the user interface and functionality.
+### Design Inspiration 🌟
 
-- **Responsive Design**: Our design is fully responsive, ensuring a smooth experience on both desktop and mobile devices.
+In the initial stage, we drew inspiration from the elegance and beauty of sushi presentation. We scoured design reference websites like [Dribbble](https://dribbble.com/) for visual inspirations that informed our design choices.
 
-- **User-Centric Approach**: We prioritized user feedback to enhance usability and accessibility.
+**Recommended Tools**: Dribbble, Behance, Awwwards
 
-- **Branding**: The Sushier brand aims to evoke the essence of sushi, combining elegance with innovation.
+### Wireframing and Prototyping ✏️
 
-## Tech Stack
+To bring our vision to life, we utilized professional design tools such as [Figma](https://www.figma.com/). This allowed us to create detailed wireframes and interactive prototypes that helped us plan the user interface and functionality with precision.
+
+**Recommended Tools**: Figma, Adobe XD, Sketch
+
+### Responsive Design 📱
+
+Sushier's design is fully responsive, ensuring a seamless experience across a variety of devices. We employed technologies like [Tailwind CSS](https://tailwindcss.com/) to craft customized, case-by-case screen dividing points in CSS. This attention to detail guarantees a flawless transition between different screen sizes.
+
+**Recommended Tools**: Tailwind CSS, Bootstrap, CSS Grid
+
+For an in-depth look at our design process, including design artifacts and detailed documentation, please visit our [Design Process Repository](link-to-design-process-repo).
+
+**Keywords for Tech Recruiters**: UX/UI Design, Dribbble, Figma, Responsive Design, Tailwind CSS, Design Artifacts, Documentation.
+
+For a detailed overview of our design process, please visit our [Design Process Repository](link-to-design-process-repo).
+
+## Tech Stack ⚙️
 
 Sushier is powered by a robust tech stack:
 
 - **Frontend**: Developed with [React](https://reactjs.org/) and [Next.js](https://nextjs.org/) for a fast and interactive user experience.
 
-- **Authentication**: [Firebase Authentication](https://firebase.google.com/products/auth) ensures secure user authentication.
+- **Authentication**: We use [NextAuth](https://next-auth.js.org/) for secure user authentication, with credential and Google providers.
 
-- **Database**: [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) stores order history, providing a personalized experience.
+- **Database**: [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) stores user credentials, providing a personalized experience.
 
-- **Payment Integration**: We've seamlessly integrated [Stripe](https://stripe.com/) for secure and convenient payments.
+- **Headless CMS**: Sushier utilizes [Amazon S3](https://aws.amazon.com/s3/) as our headless CMS to store and manage dishes images and other media assets.
 
 - **Deployment**: The app is deployed on [Vercel](https://vercel.com/), ensuring high performance and reliability.
 
-## Getting Started
+## App Versions 📃
 
-To explore Sushier or contribute to the project, follow these steps:
+- **Current Version**: 1.0.0
 
-1. Clone the repository: `git clone https://github.com/your-username/sushier.git`
+- **Future Features**: We are actively working on enhancing the Sushier experience with features like:
+  - [Feature 1](link-to-feature-1): Description of feature under development.
+  - [Feature 2](link-to-feature-2): Description of feature under development.
 
-2. Install dependencies: `npm install`
+## Getting Started 🛫
 
-3. Run the app: `npm start`
+To explore Sushier, Please folloe this [production link](https://www.sushier.app/).
 
-For detailed instructions on setting up the development environment, see [CONTRIBUTING.md](link-to-contributing-documentation).
 
-## Contributing
+## Contact 📫
 
-We welcome contributions from the open-source community! If you'd like to contribute to Sushier, please read our [CONTRIBUTING.md](link-to-contributing-documentation) for guidelines and steps to get started.
-
-## License
-
-Sushier is licensed under the [MIT License](link-to-license). Feel free to use, modify, and distribute the code.
-
-## Contact
-
-Have questions or feedback? Reach out to [Your Email Address](mailto:your-email@example.com) or connect on [LinkedIn](link-to-your-LinkedIn-profile).
+Have questions or feedback? Reach out to [Ziqi's Email](mailto:zfang1207@gmail.com) or connect on [LinkedIn](linkedin.com/in/ziqi-fang).
 
 Thank you for visiting Sushier, where innovation and sushi converge. Explore the flavors, order with ease, and join us on this culinary adventure!
 
-[Visit Sushier](link-to-live-app)
+[Visit Sushier](https://www.sushier.app/)
