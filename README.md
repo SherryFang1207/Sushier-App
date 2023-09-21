@@ -8,16 +8,16 @@ Welcome to Sushier,where we make sushi ordering effortlessly easy! Sushier is a 
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Usage Guide](#usage-guide)
-- [Design Idea & Process](#design-idea--process-🎨)
-- [Tech Stack](#tech-stack)
-- [App Versions](#app-versions)
-- [Getting Started](#getting-started)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- [Introduction](#introduction-)
+- [Features](#features-)
+- [Usage Guide](#usage-guide-)
+- [Design Idea & Process](#design-idea--process-)
+- [Tech Stack](#tech-stack-)
+- [App Versions](#app-versions-)
+- [Getting Started](#getting-started-)
+- [Contributing](#contributing-)
+- [License](#license-)
+- [Contact](#contact-)
 
 ## Introduction 🌟
 
@@ -96,7 +96,7 @@ Stay tuned for these exciting updates!
 
 ## Getting Started 🛫
 
-To explore Sushier, Please folloe this [production link](https://www.sushier.app/).
+To explore Sushier, Please follow this [production link](https://www.sushier.app/).
 
 
 ## Contact 📫
