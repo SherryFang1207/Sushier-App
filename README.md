@@ -8,7 +8,7 @@ Welcome to Sushier,where we make sushi ordering effortlessly easy! Sushier is a 
 
 ## Table of Contents
 
-- [Introduction](#introduction-)
+- [Introduction](#introduction-star)
 - [Features](#features-)
 - [Usage Guide](#usage-guide-)
 - [Design Idea & Process](#design-idea--process-)
@@ -19,7 +19,7 @@ Welcome to Sushier,where we make sushi ordering effortlessly easy! Sushier is a 
 - [License](#license-)
 - [Contact](#contact-)
 
-## Introduction 🌟
+## Introduction :star:
 
 Sushier is a concept project created by [Ziqi Fang](https://linkedin.com/in/ziqi-fang), a junior software engineer who likes experimenting new ideas and bringing concept projects to life. All rights reserved.
 
