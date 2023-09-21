@@ -1,8 +1,8 @@
 # Sushier - Sushi E-Commerce Web App by Ziqi Fang
 
-[![Sushier Logo](public/logo/Sushier-logo.png)](link-to-live-app)
+[![Sushier Logo](public/logo/Sushier-logo.png)](https://www.sushier.app/)
 
-Welcome to Sushier, where sushi meets innovation! Sushier is a **concept sushi e-commerce web application** that combines the art of sushi with cutting-edge technology. Explore Sushier App today! 🍣
+Welcome to Sushier,where we make sushi ordering effortlessly easy! Sushier is a **concept sushi e-commerce web application** that combines the art of sushi with cutting-edge technology. Explore Sushier App today! 🍣
 
 ![App Screenshot](public/snapshot/sushier-app-snapshot.png)
 
@@ -19,25 +19,20 @@ Welcome to Sushier, where sushi meets innovation! Sushier is a **concept sushi e
 - [License](#license)
 - [Contact](#contact)
 
-## Introduction
+## Introduction 🌟
 
-Sushier is a concept project created by [Your Name](link-to-your-LinkedIn-profile), a visionary entrepreneur passionate about merging culinary innovation with cutting-edge technology. All rights reserved.
+Sushier is a concept project created by [Ziqi Fang](linkedin.com/in/ziqi-fang), a junior software engineer who likes experimenting new ideas and bringing concept projects to life. All rights reserved.
 
-## Features
+## Features :mega:
 
-- **Extensive Sushi Menu**: Explore our expansive menu featuring a wide variety of sushi dishes, from traditional classics to innovative creations.
+- **Extensive Sushi Menu**: Explore our expansive menu featuring a wide variety of sushi dishes, from Nigiri to Sashimi.
 
 - **User-Friendly Ordering**: Our intuitive and responsive interface allows you to easily customize your order, add items to your cart, and complete transactions hassle-free.
 
-- **Real-Time Order Tracking**: Stay informed with real-time order tracking, ensuring you know exactly when your sushi will be ready for pickup or delivered to your doorstep.
 
-- **Secure Payments**: We've integrated Stripe, a trusted payment gateway, for secure and convenient online payments.
+## Usage Guide :sake:
 
-- **Exceptional Customer Support**: Our dedicated support team is ready to assist you with any inquiries or concerns, ensuring a top-notch experience.
-
-## Usage Guide
-
-Visit [Sushier](link-to-live-app) to explore our sushi e-commerce platform. Follow these steps to get started:
+Visit [Sushier](https://www.sushier.app/) to explore our sushi e-commerce platform. Follow these steps to get started:
 
 1. **Browse the Menu**: Discover a variety of sushi options and select your favorite dishes.
 
@@ -47,37 +42,26 @@ Visit [Sushier](link-to-live-app) to explore our sushi e-commerce platform. Foll
 
 4. **Checkout**: Proceed to checkout, review your order, and make a secure payment.
 
-5. **Track Your Order**: Use our real-time order tracking to monitor the progress of your order.
-
-6. **Enjoy Your Sushi**: Once your order is ready, savor the flavors of our delectable sushi.
 
 ## Design Idea & Process 🎨
 
-Sushier's design process was a meticulous blend of culinary artistry and modern user experience principles. Our aim was to create a platform that not only celebrates sushi traditions but also offers a seamless digital experience, powered by cutting-edge technologies.
+Sushier's UX/UI design follows modern user experience principles and uses the newest design tools to offer a seamless digital experience.
 
 ### Design Inspiration 🌟
 
-In the initial stage, we drew inspiration from the elegance and beauty of sushi presentation. We scoured design reference websites like [Dribbble](https://dribbble.com/) for visual inspirations that informed our design choices.
-
-**Recommended Tools**: Dribbble, Behance, Awwwards
+In the initial stage, we drew inspiration from the combination of Sushi and E-commerce online ordering. We scoured design reference websites like [Dribbble](https://dribbble.com/) for visual inspirations that informed our design choices.
 
 ### Wireframing and Prototyping ✏️
 
 To bring our vision to life, we utilized professional design tools such as [Figma](https://www.figma.com/). This allowed us to create detailed wireframes and interactive prototypes that helped us plan the user interface and functionality with precision.
 
-**Recommended Tools**: Figma, Adobe XD, Sketch
-
 ### Responsive Design 📱
 
-Sushier's design is fully responsive, ensuring a seamless experience across a variety of devices. We employed technologies like [Tailwind CSS](https://tailwindcss.com/) to craft customized, case-by-case screen dividing points in CSS. This attention to detail guarantees a flawless transition between different screen sizes.
+Sushier's design is fully responsive, ensuring a seamless experience across a variety of devices. We employed technologies like [Tailwind CSS](https://tailwindcss.com/) to craft customized, case-by-case screen breakpoints in CSS. This attention to detail guarantees a flawless transition between different screen sizes.
 
-**Recommended Tools**: Tailwind CSS, Bootstrap, CSS Grid
 
-For an in-depth look at our design process, including design artifacts and detailed documentation, please visit our [Design Process Repository](link-to-design-process-repo).
+**For an in-depth look at our design process, including design artifacts and detailed documentation, please visit our [Design Process Repository](link-to-design-process-repo).**
 
-**Keywords for Tech Recruiters**: UX/UI Design, Dribbble, Figma, Responsive Design, Tailwind CSS, Design Artifacts, Documentation.
-
-For a detailed overview of our design process, please visit our [Design Process Repository](link-to-design-process-repo).
 
 ## Tech Stack ⚙️
 
